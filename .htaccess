@@ -1,0 +1,10 @@
+ReWriteEngine On
+
+RewriteRule ^Bollywood index.php?cat=Bollywood [NC,L]
+RewriteRule ^Hollywood index.php?cat=Hollywood [NC,L]
+RewriteRule ^Dual index.php?cat=DualAudioMovies [NC,L]
+RewriteRule ^Music index.php?cat=MusicVideo [NC,L]
+RewriteRule ^Web index.php?cat=WebSeries [NC,L]
+RewriteRule ^Request contact.php [NC,L]
+RewriteRule ^Search/([^/]+) search.php?s=$1 [NC,L]
+RewriteRule ^Single/([^/]+) singlepage.php?id=$1 [NC,L]
